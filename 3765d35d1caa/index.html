@@ -225,11 +225,11 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
   const walineCSSLoad = document.getElementById('waline-css')
 
   if (typeof Waline === 'object') {
-    walineCSSLoad ? initWaline() : getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(initWaline)
+    walineCSSLoad ? initWaline() : getCSS('https://cdnjs.cloudflare.com/ajax/libs/waline/2.14.8/waline.min.css','waline-css').then(initWaline)
   }
   else {
-    getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(() => {
-      getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+    getCSS('https://cdnjs.cloudflare.com/ajax/libs/waline/2.14.8/waline.min.css','waline-css').then(() => {
+      getScript('https://cdnjs.cloudflare.com/ajax/libs/waline/2.14.8/waline.min.js').then(initWaline)
     })
   }
 }
