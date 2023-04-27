@@ -1,0 +1,52 @@
+- class_name: 友情链接
+  class_desc: 这里列出了一些我可能经常看的大佬们的博客
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+    - name:  Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: A Simple and Card UI Design theme for Hexo
+    - name: 梦境学习站
+      link: https://blog.godgy.xyz/
+      avatar: https://dreamwld.top/images/avatar1.png
+      descr: 一个乐于免费分享的网站
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+      descr: 分享设计与科技生活
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5
+      descr: 进一寸有进一寸的欢喜。
+      rss: /atom.xml
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://lskypro.acozycotage.net/LightPicture/2022/12/60e5d4e39da7c077.webp
+      descr: Future is now 🍭🍭🍭
+    - name: 安知鱼
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱。
+    - name: 轻笑Chuckle
+      link: https://www.chuckle.top/
+      avatar: https://thirdqq.qlogo.cn/g?b=sdk&k=ZTtAiaUqKvib2Yv1tx9xojdA&kti=Y7Y4VQAAAAE&s=140&t=1672715685
+      descr: 漫天倾尘 风中轻笑
+
+- class_name: 壁纸网站
+  class_desc: 值得推荐的壁纸网站
+  link_list:
+    - name: Wallhaven
+      link: https://wallhaven.cc/
+      avatar: https://wallhaven.cc/images/layout/logo.png
+      descr: The best wallpapers on the Net!
+    - name: 极简壁纸
+      link: https://bz.zzzmh.cn/
+      avatar: https://imagecloud.zhaozeyu.top/2023/03/18/641581a8cb1bf.jpg
+      descr: 一个个人维护的免费壁纸网站
+    - name: Konachan
+      link: https://konachan.net/
+      avatar: https://konachan.net/images/logo_small.png
+      descr: G
