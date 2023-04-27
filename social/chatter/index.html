@@ -206,7 +206,7 @@ document.addEventListener('pjax:send', () => {
             data.data.forEach(item => { items.push(Format(item)) });
             if (items.length == 30) document.querySelector('.limit').style.display = 'block';
             items.forEach(item => {
-                html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox no-lazy avatar" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://imagecloud.zhaozeyu.top/2023/03/10/640afab14b960.jpg" alt="avatar"><div class="info"><span class="talk_nick">是zzy呀${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div></div></div>` // 注意修改头像链接和名称
+                html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox no-lazy avatar" src="https://imagecloud.zhaozeyu.top/2023/03/10/640afab14b960.jpg" alt="avatar"><div class="info"><span class="talk_nick">是zzy呀${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div></div></div>` // 注意修改头像链接和名称
             })
             document.getElementById('talk').innerHTML = html
         })
@@ -222,7 +222,7 @@ document.addEventListener('pjax:send', () => {
         content = text.replace(/\[(.*?)\]\((.*?)\)/g, `<a href="$2">@$1</a>`);
         if (imgls) {
             content += `<div class="zone_imgbox">`
-            imgls.map(item => { return item.replace(/!\[.*\]\((.*?)\)/, '$1') }).forEach(e => content += `<a href="${e}" data-fancybox="gallery" class="fancybox" data-thumb="${e}"><img class="no-lazy" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="${e}" alt=""></a>` // 2023-02-06更新
+            imgls.map(item => { return item.replace(/!\[.*\]\((.*?)\)/, '$1') }).forEach(e => content += `<a href="${e}" data-fancybox="gallery" class="fancybox" data-thumb="${e}"><img class="no-lazy" src="${e}" alt=""></a>` // 2023-02-06更新
             )
             content += '</div>'
         }
