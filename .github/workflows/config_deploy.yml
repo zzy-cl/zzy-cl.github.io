@@ -38,7 +38,7 @@ jobs:
 
       - name: 缓存Hexo文件
         id: cache-npm
-        uses: actions/checkout@v3
+        uses: actions/cache@v3
         env:
           cache-name: cache-node-modules
         with:
@@ -52,7 +52,7 @@ jobs:
       - name: 安装依赖
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: |
-          npm install --save
+          npm install
 
       - name: 生成静态文件
         run: |
