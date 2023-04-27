@@ -56,7 +56,6 @@ jobs:
 
       - name: 生成静态文件
         run: |
-          npm install --save
           hexo clean
           hexo generate
           hexo algolia
