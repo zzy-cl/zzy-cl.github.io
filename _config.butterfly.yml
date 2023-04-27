@@ -1,7 +1,7 @@
+--- # --------------------------------------
+
 # Main menu navigation (导航目录)
 # see https://butterfly.js.org/posts/4aa8abbe/ # 导航菜单
-# --------------------------------------
-
 menu:
   首页: / || fas fa-home
   文章 || fa-solid fa-book || hide:
@@ -163,7 +163,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: "Page Not Found"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -350,7 +350,7 @@ waline:
   bg: # waline background
   pageview: true
   option:
-    requiredMeta: [ nick, mail ] # 选定昵称和评论为必填项
+    requiredMeta: [nick, mail] # 选定昵称和评论为必填项
     locale:
       placeholder: 昵称和邮箱为必填项，为了您能及时收到相关回复的邮件通知，请确保邮箱的正确性！ # 内容区提示
 
@@ -581,7 +581,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -626,13 +626,13 @@ beautify:
   enable: true
   field: site # site/post
   title-prefix-icon: '\f005'
-  title-prefix-icon-color: '#88cb7f' # 浅绿
+  title-prefix-icon-color: "#88cb7f" # 浅绿
 
 # 全局字体设置
 # 除非您知道以下设置的工作原理，否则不要修改它们 (非必要不要修改)
 font:
-  global-font-size: '16px'
-  code-font-size: '16px'
+  global-font-size: "16px"
+  code-font-size: "16px"
   font-family: CEYYT3,DYHXT,FiraCode
   code-font-family: CEYYT3,FiraCode,DYHXT
 
@@ -766,9 +766,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode (阅读模式)
 readmode: true
@@ -782,7 +782,10 @@ darkmode:
   # autoChangeMode: 1  按照系统设置，如果系统不支持暗模式，则将在下午6点到上午6点之间切换暗模式
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 2
+  autoChangeMode: false
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: 5
+  end: 24
 
 # 在滚动到顶部按钮中显示滚动百分比
 rightside_scroll_percent: true
@@ -856,8 +859,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: '#49b1f5' # 灯光模式下Toast通知的背景色
-  bg_dark: '#1f1f1f' # 黑暗模式下Toast通知的背景色
+  bg_light: "#49b1f5" # 灯光模式下Toast通知的背景色
+  bg_dark: "#1f1f1f" # 黑暗模式下Toast通知的背景色
 
 # https://instant.page/
 # prefetch (预加载)
@@ -946,8 +949,8 @@ CDN:
     # translate:
     # local_search:
     # algolia_js:
-    algolia_search_v4: https://cdn.staticfile.org/algoliasearch/4.16.0/algoliasearch-lite.umd.min.js
-    instantsearch_v4: https://cdn.staticfile.org/instantsearch.js/4.53.0/instantsearch.production.min.js
+    algolia_search: https://cdn.staticfile.org/algoliasearch/4.16.0/algoliasearch-lite.umd.min.js
+    instantsearch: https://cdn.staticfile.org/instantsearch.js/4.53.0/instantsearch.production.min.js
     # docsearch_js:
     # docsearch_css:
     pjax: https://cdn.staticfile.org/pjax/0.2.8/pjax.min.js
@@ -973,8 +976,8 @@ CDN:
     instantpage: https://cdn.staticfile.org/instant.page/5.1.1/instantpage.min.js
     typed: https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js
     pangu: https://cdn.staticfile.org/pangu/4.0.7/pangu.min.js
-    fancybox_css_v4: https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.min.css
-    fancybox_v4: https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js
+    fancybox_css: https://cdn.staticfile.org/fancyapps-ui/5.0.15/fancybox/fancybox.min.css
+    fancybox: https://cdn.staticfile.org/fancyapps-ui/5.0.15/fancybox/fancybox.umd.min.js
     # medium_zoom:
     snackbar_css: https://cdn.staticfile.org/node-snackbar/0.1.16/snackbar.min.css
     snackbar: https://cdn.staticfile.org/node-snackbar/0.1.16/snackbar.min.js
@@ -982,7 +985,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    fontawesomeV6: https://cdn.staticfile.org/font-awesome/6.3.0/css/all.min.css
+    fontawesome: https://cdn.staticfile.org/font-awesome/6.3.0/css/all.min.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     aplayer_css: https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css
