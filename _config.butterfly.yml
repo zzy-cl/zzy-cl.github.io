@@ -460,7 +460,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: ⭐让理想生活的样子清晰可见⭐<p><a target="_blank" href="https://hexo.io/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Frame-Hexo-blue.svg" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Theme-Butterfly-6513df.svg" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://staticfile.org/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/CDN-Staticfile-1abc9c.svg" title="本站使用StaticFileCDN为静态资源提供CDN加速"></a>&nbsp;<a target="_blank" href="https://cloud.tencent.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Hosted-TencentCloud-2ca9e1.svg" title="本站采用双线部署，分路线路托管于腾讯云服务器"></a>&nbsp;<a target="_blank" href="https://app.netlify.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Hosted-Netlify-32e6e2.svg" title="本站采用双线部署，分路线路托管于Netlify"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Source-Github-d021d6.svg" title="本站项目由Github托管"></a>&nbsp;<a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/Copyright-BY--NC--SA%204.svg" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a>&nbsp;<a target="_blank" href="https://icp.gov.moe/?keyword=20230531"><img src="https://npm.elemecdn.com/blogassets@1.1.4/footerLogo/%E8%90%8CICP%E5%A4%87-20230531%E5%8F%B7-fd6ea3.svg" title="本站萌国ICP备案号为：萌ICP备20230531号"></a></p>
+  custom_text: ⭐让理想生活的样子清晰可见⭐<p><a target="_blank" href="https://hexo.io/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Frame-Hexo-blue.svg" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Theme-Butterfly-6513df.svg" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://staticfile.org/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/CDN-Staticfile-1abc9c.svg" title="本站使用StaticFileCDN为静态资源提供CDN加速"></a>&nbsp;<a target="_blank" href="https://vercel.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Hosted-Vercel-blue.svg" title="本站采用双线部署，主路线路托管于Vercel平台"></a>&nbsp;<a target="_blank" href="https://app.netlify.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Hosted-Netlify-32e6e2.svg" title="本站采用双线部署，分路线路托管于Netlify"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Source-Github-d021d6.svg" title="本站项目由Github托管"></a>&nbsp;<a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/Copyright-BY--NC--SA%204.svg" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a>&nbsp;<a target="_blank" href="https://icp.gov.moe/?keyword=20230531"><img src="https://npm.elemecdn.com/blogassets@1.1.5/footerLogo/%E8%90%8CICP%E5%A4%87-20230531%E5%8F%B7-fd6ea3.svg" title="本站萌国ICP备案号为：萌ICP备20230531号"></a></p>
   copyright: false # 主题和框架的版权
 
 # Analysis
@@ -676,7 +676,7 @@ preloader:
   # 2. pace (progress bar)
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://npm.elemecdn.com/blogassets@1.1.4/pace/minimal.css
+  pace_css_url: https://npm.elemecdn.com/blogassets@1.1.5/pace/minimal.css
 
 # aside (侧边栏)
 # --------------------------------------
@@ -701,7 +701,7 @@ aside:
       link: https://github.com/zzy-cl
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.zhaozeyu.top" title="此线路部署于腾讯云服务器" class="anno_content"><font color="#5ea6e5">www.zhaozeyu.top</font></a><br>--- 备用域名 ---<br><a href="https://zzy-cl.netlify.app" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">zzy-cl.netlify.app</font></a><br><a href="https://zzy-cl.github.io" title="此线路部署于Github" class="anno_content"><font color="#5ea6e5">zzy-cl.github.io</font></a><br>--- 网站移动端APP ---<br>🍧<a href="javascript:;" title="本网站还没有移动端APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://blog.zhaozeyu.top" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">blog.zhaozeyu.top</font></a><br>--- 备用域名 ---<br><a href="https://zzy-cl.netlify.app" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">zzy-cl.netlify.app</font></a><br><a href="https://zzy-cl.github.io" title="此线路部署于Github" class="anno_content"><font color="#5ea6e5">zzy-cl.github.io</font></a><br>--- 网站移动端APP ---<br>🍧<a href="javascript:;" title="本网站还没有移动端APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
   card_recent_post:
     enable: true
     limit: 5 # 如果设置为0，将显示所有
@@ -912,12 +912,12 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.4/custom/custom.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.4/post-ai/post-ai.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.4/chatter/chatter.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.4/list/list.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.5/custom/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.5/post-ai/post-ai.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.5/chatter/chatter.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/blogassets@1.1.5/list/list.css" media="defer" onload="this.media='all'">
   bottom:
-    - <script async src="https://npm.elemecdn.com/blogassets@1.1.4/chatter/chatter.js"></script>
+    - <script async src="https://npm.elemecdn.com/blogassets@1.1.5/chatter/chatter.js"></script>
     - <script async src="/zzy/random.js"></script>
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"K0VU2LtXXe1Yu5jy",ck:"K0VU2LtXXe1Yu5jy",autoTrack:true})</script>
@@ -1037,8 +1037,8 @@ wowjs:
     - class: card-widget
       style: animate__zoomIn
   animate_css: https://cdn.staticfile.org/animate.css/4.1.1/animate.min.css
-  wow_js: https://npm.elemecdn.com/blogassets@1.1.4/hexo-butterfly-wowjs/wow.min.js
-  wow_init_js: https://npm.elemecdn.com/blogassets@1.1.4/hexo-butterfly-wowjs/wow_init.js
+  wow_js: https://npm.elemecdn.com/blogassets@1.1.5/hexo-butterfly-wowjs/wow.min.js
+  wow_init_js: https://npm.elemecdn.com/blogassets@1.1.5/hexo-butterfly-wowjs/wow_init.js
 
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
@@ -1054,8 +1054,8 @@ swiper:
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper_css: https://cdn.staticfile.org/Swiper/4.1.6/css/swiper.min.css #swiper css依赖
   swiper_js: https://cdn.staticfile.org/Swiper/4.1.6/js/swiper.min.js #swiper js依赖
-  custom_css: https://npm.elemecdn.com/blogassets@1.1.4/hexo-butterfly-swiper/swiperstyle.css # 适配主题样式补丁
-  custom_js: https://npm.elemecdn.com/blogassets@1.1.4/hexo-butterfly-swiper/swiper_init.js # swiper初始化方法
+  custom_css: https://npm.elemecdn.com/blogassets@1.1.5/hexo-butterfly-swiper/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/blogassets@1.1.5/hexo-butterfly-swiper/swiper_init.js # swiper初始化方法
 
 # hexo-butterfly-categories-card
 # see https://akilar.top/posts/a9131002/
@@ -1082,4 +1082,4 @@ categoryBar:
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
     - descr: ZZY的日常随笔
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
-  custom_css: https://npm.elemecdn.com/blogassets@1.1.4/hexo-butterfly-categories-card/categorybar.css
+  custom_css: https://npm.elemecdn.com/blogassets@1.1.5/hexo-butterfly-categories-card/categorybar.css

@@ -5,4 +5,4 @@ aside: false
 ---
 
 <div id="hexo-circle-of-friends-root"></div>
-<script async src="https://npm.elemecdn.com/blogassets@1.1.4/fcircle/fcircle.min.js"></script>
+<script async src="https://npm.elemecdn.com/blogassets@1.1.5/fcircle/fcircle.min.js"></script>
